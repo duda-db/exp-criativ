@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfólio - Exp Criativa</title>
+    <link rel="stylesheet" href="{{ url_for('./', filename='style.css')}}">
+  </head>
+  <body>
+    <header>
+      <h1>✤ Eduarda's Portfólio ✤</h1>
+    </header>
+    <section>
+      <div class="item">
+        <img src="{{ url_for('./', filename='foto1.jpg')}}" alt="foto">
+        <h2>Exemplo 00</h2>
+        <p>
+          No topo do código, é importada a biblioteca Flask, nas primeiras duas linhas.
+        </p>
+        <p>
+          A rota da página index é definida, que retorna uma string.
+        </p>
+        <p>
+          Nas próximas duas linhas, a execução direta do código Python é definida.
+        </p>
+      </div>
+      <div class="item">
+        <img src="{{ url_for('./', filename='foto2.jpg')}}" alt="foto">
+        <h2>Exemplo 01</h2>
+        <p>
+          Nas próximas vinte linhas e, depois, nas próximas dez linhas, a rota da página index é definida, que retorna uma string.
+        </p>
+        <p>
+          Nas duas últimas linhas, a execução direta do código Python também é definida.
+        </p>
+      </div>
+      <div class="item">
+        <img src="{{ url_for('./', filename='foto3.jpg')}}" alt="foto">
+        <h2>Exemplo 02</h2>
+        <p>
+          No exemplo dois, há algumas abas dentro dele.
+        </p>
+        <p>
+          Uma das abas é chamada 'static', que, como o nome sugere, "formata" o código, o organiza e o torna estático.
+        </p>
+        <p>
+          Há diferenças na aba do JavaScript, como deixar a página responsiva.
+        </p>
+      </div>
+      <div class="item">
+        <img src="{{ url_for('./', filename='foto4.jpg')}}" alt="foto">
+        <h2>Exemplo 03</h2>
+        <p>
+          No exemplo 3, há um redirecionamento de uma página para outra, com as instruções básicas no app.py para a mudança de página e o que será exibido na outra página.
+        </p>
+      </div>
+      <div class="item">
+        <img src="{{ url_for('./', filename='foto5.jpg')}}" alt="foto">
+        <h2>Exemplo 04</h2>
+        <p>
+          No exemplo 4, há os códigos para a criação da parte de pedidos. Na parte do HTML, há um redirecionamento para outra página e também a parte de registrar os pedidos por meio do método 'POST'.
+        </p>
+      </div>
+      <div class="item">
+        <img src="{{ url_for('./', filename='foto6.jpg')}}" alt="foto">
+        <h2>Exemplo 05</h2>
+        <p>
+          Aqui, há exemplos de usos dos métodos 'GET' e 'POST', o que transforma as páginas com informações fornecidas anteriormente.
+        </p>
+      </div> 
+      <div class="item">
+        <img src="{{ url_for('./', filename='foto7.jpg')}}" alt="foto">
+        <h2>Exemplo 06</h2>
+        <p>
+          Nesse exemplo, há a utilização do 'Blueprint', que serve para fazer uma separação de acesso.
+        </p>
+
+    </section>
+  </body>
+</html>
